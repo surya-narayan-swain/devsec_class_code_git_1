@@ -32,4 +32,11 @@ public class AppTest {
     	int actual=app.sum(100, -200);
     	assertEquals(excepted, actual);
     }
+    @Test
+    public void testSumWithZeros() {
+    	App app =new App();
+    	int excepted=100;
+    	int actual=app.sum(100, 0);
+    	assertEquals(excepted, actual);
+    }
 }
