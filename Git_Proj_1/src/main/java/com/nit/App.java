@@ -1,10 +1,12 @@
 package com.nit;
 
-/**
- * Hello world!
- */
+
 public class App {
+	
+	public int sum(int x,int y)
+	{return x+y;}
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    	
+        System.out.println("sum is : "+new App().sum(10, 20));
     }
 }
