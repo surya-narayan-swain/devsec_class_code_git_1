@@ -8,5 +8,10 @@ public class App {
     public static void main(String[] args) {
     	
         System.out.println("sum is : "+new App().sum(10, 20));
+        System.out.println("App.main()");
+        System.out.println("App.main()");
+        System.out.println("App.main()");
+
+        
     }
 }
